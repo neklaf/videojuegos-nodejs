@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Videojuegos DB</title>
+</head>
+<body>
+
+    <h1>Consulta de Videojuegos</h1>
+
+    <label for="filtro">Filtrar por Estudio:</label>
+    <select id="filtro">
+        <option value="">-- Todos los estudios --</option>
+    </select>
+    <button id="btnBuscar">Consultar</button>
+
+    <hr>
+
+    <table border="1" cellpadding="5">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Año</th>
+                <th>Estudio (FK)</th>
+                <th>País</th>
+            </tr>
+        </thead>
+        <tbody id="resultado"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
