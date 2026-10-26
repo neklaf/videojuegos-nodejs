@@ -1,0 +1,27 @@
+{
+  "name": "videojuegos-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neklaf/videojuegos-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neklaf/videojuegos-nodejs/issues"
+  },
+  "homepage": "https://github.com/neklaf/videojuegos-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "knex": "^3.3.0",
+    "sqlite3": "^6.0.1"
+  }
+}
